@@ -5,16 +5,16 @@ window.alert("Seja bem-vindo (a): " + nomeUser + ", ao sistema de verificação 
 window.alert("Por gentileza, digite as 4 notas do aluno, para obter sua média.")
 
 // Requisitando as notas 1,2,3,4 e armazenando nas respectivas variáveis (Entrada de Dados)
-var nota1 = parseInt(window.prompt("Digite a 1ª nota: "));
+var nota1 = parseFloat(window.prompt("Digite a 1ª nota: "));
 window.alert("A nota: " + nota1 + " foi inserida com sucesso!");
 
-var nota2 = parseInt(window.prompt("Digite a 2ª nota: "));
+var nota2 = parseFloat(window.prompt("Digite a 2ª nota: "));
 window.alert("A nota: " + nota2 + " foi inserida com sucesso!");
 
-var nota3 = parseInt(window.prompt("Digite a 3ª nota: "));
+var nota3 = parseFloat(window.prompt("Digite a 3ª nota: "));
 window.alert("A nota: " + nota3 + " foi inserida com sucesso!");
 
-var nota4 = parseInt(window.prompt("Digite a 4ª nota: "));
+var nota4 = parseFloat(window.prompt("Digite a 4ª nota: "));
 window.alert("A nota: " + nota4 + " foi inserida com sucesso!");
 
 // Realizando o cáculo da média aritmética (Processamento)
