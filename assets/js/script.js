@@ -23,10 +23,11 @@ var media =  (nota1 + nota2 + nota3 + nota4) / 4;
 // Exibindo os resultados (média e status de aprovação) ao usuário (Saída de Dados)
 document.getElementById("media").innerHTML = "A média do aluno foi: " + media;
 
+var stts = document.getElementById("status")
 if(media <= 6){ 
-    document.getElementById("status").innerHTML = "REPROVADO!";
-    document.getElementById("status").style.color = "red";
+    stts.innerHTML = "Status: REPROVADO!";
+    stts.style.color = "red";
 }else {
-    document.getElementById("status").innerHTML = "APROVADO!";
-    document.getElementById("status").style.color = "green";
+    stts.innerHTML = "Status: APROVADO!";
+    stts.style.color = "green";
 }
