@@ -1,0 +1,35 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Fjalla+One&display=swap');
+
+/* CSS Reset */
+* {
+    margin:  0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #273a73;
+}
+#content {
+    /* Flex */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+
+    /* Colors */
+    background-color: rgb(228, 129, 120);
+    color: #f2e8c5;
+
+    /* Font */
+    font-family: 'Fjalla One', sans-serif;
+
+    /* Border, width, height, margin and shadow*/
+    border-radius: 10px 20px;
+    width: 50%;
+    height: 200px;
+    margin: 15% auto;
+    box-shadow: 20px 20px 30px rgb(0, 0, 0);
+}
