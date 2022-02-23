@@ -30,4 +30,3 @@ if(media <= 6){
     document.getElementById("status").innerHTML = "APROVADO!";
     document.getElementById("status").style.color = "green";
 }
-//document.getElementById("media").innerHTML = media;
